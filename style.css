@@ -1,48 +1,92 @@
 .heading
 {
-width: 100%;
-text-align: left;
-}
-.heading h3{
-    display: inline;
+    width:100%;
+    text-align: left;
+    background-color:lightskyblue;
+    color:midnightblue;
+    font-size:20px;
 }
 
-.heading button{
-    float: right;
-    border: 1px solid white;
+.heading h3
+{
+    display: inline;
+    font-family: 'Luckiest Guy', cursive;
+    font-size:40px;
+
+    background-image:url("https://i.pinimg.com/736x/30/aa/51/30aa51105b0bf0ab58441d7bdfcdefc2.jpg");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    animation: mario 2s ease infinite;
+
+
+} 
+@keyframes mario{
+    0%{
+        background-size:0%;
+    }
+    25%{
+        background-size:100%;
+    }
+    50%
+    {
+        background-size:200%;
+    }
+} 
+
+.instructions
+{
+    background-color:lightskyblue;
+    color:midnightblue;
+    float:right;
+    border: 2px solid midnightblue;
+    font-family: 'Luckiest Guy', cursive;
+    font-size:25px;
+    text-align: center;
 }
 
 .big_image
 {
     width: 100%;
-}
-#start ,#status 
-{
-font-size: 22px;
+    
 }
 
-.modal-dialog
+#start
 {
-    width: 90%;
+    background-color:limegreen;
+    color:seagreen;
+    font-size:30px;
+    font-family: 'Luckiest Guy', cursive;
+    text-align:center;
 }
 
-.instruction_image
+#status
+{
+    background-color:tomato;
+    color:indianred;
+    font-family: 'Luckiest Guy', cursive;
+    font-size:25px;
+
+}
+
+h4
+{
+    background-color:lightskyblue;
+    line-height: 2;
+    margin:0px;
+}
+
+.instructions_image
 {
     display: inline-block;
     width: 45%;
 }
-video
-{
+
+video{
     background: url('game_console.png');
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     padding: 25px;
-}
-h4
-{
-   background-color: #f5f5f5;
-   line-height: 2;
-   margin: 0px;
+
 }
 
 
